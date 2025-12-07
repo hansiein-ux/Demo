@@ -106,3 +106,4 @@ foreach ($x in Get-process | where-object {$_.CPU -gt 50} | Sort-object -Descend
         }
     
 }
+Get-date
